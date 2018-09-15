@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sekiro:Sculptor</title>
+    <link type="text/css" href="../style.css" rel="stylesheet" />
+</head>
+<body>
+<body bgcolor="#eee">
+
+    <div class="jumbotron text-center">
+            <img src="../images/Sekiro_4.png" class="img-rounded" alt="cross logo" height="200">
+        <ul class = "margtop">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../users.html">Пользователи</a></li>
+        <li><a href="../tasks.html">Задания</a></li>
+        <li style="float:right"><a href="../about.html">Справка</a></li>
+        </ul>
+    </div>
+    <div class = "container just_text">
+        <h2 class = "text-center just_text">Шахматы</h2>
+        <table>
+            <tr> 
+                <th>
+                        Совсем недавно Вася занялся программированием и решил реализовать собственную программу для игры в шахматы. Но у него возникла проблема определения правильности хода конем, который делает пользователь. Т.е. если пользователь вводит значение «C7-D5», то программа должна определить это как правильный ход, если же введено «E2-E4», то ход неверный. Так же нужно проверить корректность записи ввода: если например, введено «D9-N5», то программа должна определить данную запись как ошибочную. Помогите ему осуществить эту проверку!
+                    <p class = "caption">Входные данные</p>
+
+                    В единственной строке входного файла INPUT.TXT записан текст хода (непустая строка), который указал пользователь. Пользователь не может ввести строку, длиннее 5 символов.
+                    <p class = "caption">Выходные данные</p>
+                    
+                    В выходной файл OUTPUT.TXT нужно вывести «YES», если указанный ход конем верный, если же запись корректна (в смысле правильности записи координат), но ход невозможен, то нужно вывести «NO». Если же координаты не определены или заданы некорректно, то вывести сообщение «ERROR». 
+                </th>
+                <th class = "middleimg"><img src="../images/chess.gif" class="img-rounded middleimg" alt="chess logo"></th>
+            </tr>
+        </table>
+
+        <h4 class = "text-center just_text">Примеры</h4>
+        <table>
+            
+            <tr> 
+                <th>№</th>
+                <th>INPUT.TXT</th>
+                <th>OUTPUT.TXT</th>
+            </tr>
+            <tr> 
+                <th>1</th>
+                <th>C7-D5</th>
+                <th>YES</th>
+            </tr>
+            <tr> 
+                <th>2</th>
+                <th>E2-E4</th>
+                <th>NO</th>
+            </tr>
+            <tr> 
+                <th>3</th>
+                <th>BSN</th>
+                <th>ERROR</th>
+            </tr>
+
+            </table>
+    </div>
+    </div>
+</body>
+</html>

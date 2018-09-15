@@ -1,0 +1,142 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #5bc0de;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-rounded {
+    border-radius: 6px;
+}
+
+.h1,
+{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.formatt,
+{
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.margtop {
+    margin-top: 40px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 3px solid transparent;
+    border-color: #333;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    min-height: 200px;
+    min-width: 700px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.just_text {
+    border-collapse: collapse;
+    color: #333;
+    
+    text-indent: 10px;
+    line-height: 35px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.caption {
+    border-collapse: collapse;
+    color: #111;
+}
+
+.text {
+    border-collapse: collapse;
+    color: #333;
+    direction: rtl;
+    text-indent: 10px;
+    line-height: 35px;
+    text-align: left;
+    
+    text-shadow: 1px 1px 3px black;
+}
+
+.container {
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+.leftimg {
+    float:left; 
+    
+}
+.rightimg  {
+    float: right; 
+}
+
+.middleimg {
+
+    float: center; 
+}
+ 
+.mytable {
+    width: 300px; 
+}
+  
+
