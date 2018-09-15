@@ -63,7 +63,7 @@ li a:hover:not(.active) {
 
 .margtop {
     margin-top: 40px;
-    min-width: 600px;
+    min-width: 740px;
 }
 
 .panel {
@@ -121,6 +121,7 @@ th, td {
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
+    min-width: 740px;
 } 
 
 .leftimg {
