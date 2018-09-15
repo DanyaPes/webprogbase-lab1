@@ -90,6 +90,11 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
+.just_text_2 {
+    border-collapse: collapse;
+    color: #333;
+    text-shadow: 1px 1px 3px black;
+}
 
 .just_text {
     border-collapse: collapse;
@@ -121,7 +126,7 @@ th, td {
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
-    min-width: 740px;
+    min-width: 640px;
 } 
 
 .leftimg {
